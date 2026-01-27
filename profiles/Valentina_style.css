@@ -1,42 +1,42 @@
 
-/* 1. Estilos generales de la página para centrar la tarjeta */
+/* 1. General page styles to center the card  */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f2f5; /* Un gris muy suave de fondo */
-  display: flex;             /* Usamos Flexbox para centrar */
-  justify-content: center;   /* Centrado horizontal */
-  align-items: center;       /* Centrado vertical */
-  height: 100vh;             /* Altura completa de la ventana */
+  background-color: #f0f2f5; /* A very light gray background */
+  display: flex;             /* We use Flexbox to center  */
+  justify-content: center;   /* Horizontal centering */
+  align-items: center;       /*  Vertical centering */
+  height: 100vh;             /* Full viewport height */
   margin: 0;
 }
 
-/* 2. El diseño de la tarjeta (Card) */
+/* 2. The card design (Card) */
 .card {
   background-color: white;
-  width: 300px;              /* Ancho fijo de la tarjeta */
-  padding: 40px;             /* Espacio interno */
-  border-radius: 15px;       /* Bordes redondeados */
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Sombra elegante */
-  text-align: center;        /* Todo el texto centrado */
-  transition: transform 0.3s ease; /* Animación suave */
+  width: 300px;              /* Fixed card width  */
+  padding: 40px;             /* Internal spacing */
+  border-radius: 15px;       /* Rounded borders */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Elegant shadow */
+  text-align: center;        /* All text centered */
+  transition: transform 0.3s ease; /* Smooth animation */
 }
 
-/* Efecto al pasar el mouse por encima (Opcional/Nice to have) */
+/* Effect when hovering over the card (Optional/Nice to have) */
 .card:hover {
-  transform: translateY(-5px); /* La tarjeta sube un poquito */
+  transform: translateY(-5px); /* The card lifts up a bit */
 }
 
-/* 3. La imagen de perfil */
+/* 3.  The profile image */
 .avatar {
   width: 150px;
   height: 150px;
-  border-radius: 50%;        /* Esto la hace redonda */
-  object-fit: cover;         /* Evita que la foto se deforme */
-  border: 4px solid #6c5ce7; /* Un borde color lila/morado */
+  border-radius: 50%;        /* This makes it round  */
+  object-fit: cover;         /* Prevents the photo from being distorted */
+  border: 4px solid #6c5ce7; /* A lilac/purple colored border */
   margin-bottom: 20px;
 }
 
-/* 4. Tipografía */
+/* 4. Typography */
 .name {
   color: #333;
   font-size: 1.5rem;
